@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF4F6F9"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="群内加人"
+        android:textColor="#1a1a1a"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="设置验证消息" />
+
+    <Button
+        android:onClick="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="启动微信开始加人" />
+</LinearLayout>

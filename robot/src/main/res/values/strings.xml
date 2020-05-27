@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">robot</string>
+    <string name="as_lable">robot辅助服务</string>
+    <string name="as_description">robot辅助服务</string>
+</resources>
